@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./index.js" type="module"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div id="congrats-div">
+        <p id="congrats-msg"></p>
+        <button id="reset-btn">Reset</button>
+    </div>
+    <div id="scoreboard">
+        <section class="score-section" id="player-x-scores">
+            <h5 class="scoreboard-heading">Player X</h5>
+            <p class="wins-para">Wins: <span class="wins-count">0</span></p>
+            <p class="losses-para">Losses: <span class="losses-count">0</span></p>
+        </section>
+        <section class="score-section" id="player-o-scores">
+            <h5 class="scoreboard-heading">Player O</h5>
+            <p class="wins-para">Wins: <span class="wins-count">0</span></p>
+            <p class="losses-para">Losses: <span class="losses-count">0</span></p>
+        </section>
+    </div>
+    <div class="container">
+        <ul class="game-cells-list">
+            <li class="game-cell b1"></li>
+            <li class="game-cell b2"></li>
+            <li class="game-cell b3"></li>
+        </ul>
+        <ul class="game-cells-list">
+            <li class="game-cell b4"></li>
+            <li class="game-cell b5"></li>
+            <li class="game-cell b6"></li>
+        </ul>
+        <ul class="game-cells-list">
+            <li class="game-cell b7"></li>
+            <li class="game-cell b8"></li>
+            <li class="game-cell b9"></li>
+        </ul>
+    </div>
+</body>
+</html>
